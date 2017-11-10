@@ -15,7 +15,7 @@ class Question {
     this.save();
   }
 
-  static find(i){
+  static Find(i){
     console.log(this._All);
     debugger;
     return this._All[i-1];
